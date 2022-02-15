@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "amelia-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ameliaWebpart/AmeliaWebpartWebPart.js",
+          "manifest": "./src/webparts/ameliaWebpart/AmeliaWebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "amelia-cha-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/ameliaChaCustomizer/AmeliaChaCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/ameliaChaCustomizer/AmeliaChaCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AmeliaWebpartWebPartStrings": "lib/webparts/ameliaWebpart/loc/{locale}.js",
+    "AmeliaChaCustomizerApplicationCustomizerStrings": "lib/extensions/ameliaChaCustomizer/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AmeliaChaCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="f917eda4-5ee3-4dea-bcb5-257ef15735e9"
+        ClientSideComponentProperties="{&quot;cssurl&quot;:&quot;/Style%20Library/global.css&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://mckessoncorp.sharepoint.com/_layouts/workbench.aspx",
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mckessoncorp.sharepoint.com/_layouts/15/workbench.aspx",
+      "customActions": {
+        "f917eda4-5ee3-4dea-bcb5-257ef15735e9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "ameliaChaCustomizer": {
+      "pageUrl": "https://mckessoncorp.sharepoint.com/_layouts/15/workbench.aspx",
+      "customActions": {
+        "f917eda4-5ee3-4dea-bcb5-257ef15735e9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

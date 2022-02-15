@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="AmeliaChaCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="f917eda4-5ee3-4dea-bcb5-257ef15735e9"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

@@ -1,0 +1,17 @@
+.ControlZone {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.CanvasZone {
+  padding: 0;
+}
+
+#workbenchPageContent div:nth-child(1),
+#workbenchPageContent div:nth-child(2),
+#workbenchPageContent div:nth-child(3) {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: none;
+  border: 1px solid rgb(43, 255, 0);
+}

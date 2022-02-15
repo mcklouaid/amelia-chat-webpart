@@ -1,0 +1,125 @@
+@import "../../../shared/abstract/main.module.scss";
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.ameliaWebpart {
+  .container {
+    //font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    //max-width: 700px;
+    font-weight: 500;
+    margin: 0px auto;
+    display: flex;
+    background-color: $amelia-chat-bg;
+
+    @include for-tablet-portrait-up{
+      flex-direction: column;
+    }
+
+    @include for-medium-phone-8{
+      flex-direction: column;
+    }
+
+    @include for-medium-phone-6{
+      flex-direction: column;
+    }
+
+    @mixin for-small-phone {
+      flex-direction: column;
+    }
+
+    .ameliaAvatarSection,
+    .ameliaChatSection {
+      font-size: 1rem;
+      display: flex;
+      padding: 2%;
+    }
+
+    .ameliaAvatarSection {
+      align-items: center;
+      width: 56%;
+
+
+
+      @include for-tablet-portrait-up{
+        width: 100%;
+      }
+
+      @include for-medium-phone-8{
+        width: 100%;
+      }
+
+      @include for-medium-phone-6{
+        width: 100%;
+      }
+
+      @mixin for-small-phone {
+        width: 100%;
+      }
+
+      .imgAvatarSpot {
+        margin-right: 2%;
+      }
+      .insideText {
+        display: block;
+      }
+
+      b {
+        font-size: 1.2rem;
+      }
+    }
+
+    .ameliaChatSection {
+      flex-direction: column;
+      justify-content: center;
+      width: 36%;
+
+      @include for-tablet-portrait-up{
+        width: 100%;
+        border: 1px solid rgb(0, 255, 128);
+      }
+
+      @include for-medium-phone-8{
+        width: 100%;
+      }
+
+      @include for-medium-phone-6{
+        width: 100%;
+      }
+
+      @mixin for-small-phone {
+        width: 100%;
+      }
+
+      .imgChatSpot {
+        position: relative;
+      }
+
+      b {
+        font-size: 1.2rem;
+      }
+
+      a {
+        font-weight: bold;
+        font-size: 1.2rem;
+        @include links(
+          #106ebe,
+          #106ebe,
+          $primary-tangerine-orange,
+          $primary-tangerine-orange
+        );
+      }
+
+      img {
+        width: 10%;
+        height: auto;
+        image-rendering: auto;
+        top: 6px;
+        position: relative;
+        margin-right: 2%;
+      }
+
+      .startConvoText{
+        width:100%;
+      }
+    }
+  }
+}
